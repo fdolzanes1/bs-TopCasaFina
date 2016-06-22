@@ -4,25 +4,54 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
 </head>
 <body>
 <div class="container">
   <h2>Sobre nós</h2>
   <img class="img-responsive" src="img/empresa.jpg"></img>
-  <h2 data-toggle="collapse" data-target="#primeiro-paragrafo">Desde 1935</h3>
-    <p id="primeiro-paragrafo" class="collapse in">
-      Desde 1935 trazendo casas, mansões e prédios lindos para o mundo.
-    </p>
-  <h3>Preços acessíveis</h3>
-    <p>
-      Preços a partir de R$ 1000,00.
-    </p>
-  <h3>Alegria em colaborar para um mundo mais bonito</h3>
-    <p>
-      Trazendo alegria para a vida das pessoas que tem dinheiro para gastar.
-    </p>
-  <script type="text/javascript" src="js/jquery.js"></script>
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <div class="panel-group" id="paineis-sobre">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title" data-toggle="collapse" data-target="#primeiro-paragrafo" data-parent="#paineis-sobre">Desde 1935</h3>
+      </div>
+      <div id="primeiro-paragrafo" class="collapse in">
+        <div class="panel-body">
+          <p >
+            Desde 1935 trazendo casas, mansões e prédios lindos para o mundo.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title" data-toggle="collapse" data-target="#segundo-paragrafo" data-parent="#paineis-sobre">Preços acessíveis</h3>
+      </div>
+      <div id="segundo-paragrafo" class="collapse">
+        <div class="panel-body">  
+          <p >
+            Preços a partir de R$ 1000,00.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title" data-toggle="collapse" data-target="#terceiro-paragrafo" data-parent="#paineis-sobre">Alegria em colaborar para um mundo mais bonito</h3>
+      </div>
+      <div id="terceiro-paragrafo" class="collapse">
+        <div class="panel-body">
+          <p >
+            Trazendo alegria para a vida das pessoas que tem dinheiro para gastar.
+          </p>
+        </div>
+      </div>  
+    </div>
+  </div>
 </div>
+<h2>Nossos Projetos</h2>
+<img src="img/projetos/casa-castelo.png"></img>
 </body>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
 </html>
