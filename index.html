@@ -6,16 +6,33 @@
   <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
   <link rel="stylesheet" href="css/style.css" type="text/css" />
 </head>
-<body>
-<ul>
-  <li><a href="#sobre-nos">Sobre Nos</a></li>
-  <li><a href="#nossos-projetos">Nossos Projetos</a></li>
-  <li><a href="#depoimentos">Depoimentos</a></li>
-  <li><a href="#videos">Vídeos</a></li>
-  <li><a href="#contato">Contato</a></li>
-</ul>  
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<header>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="">TopCasaFina</a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="#sobre-nos">Sobre Nos</a></li>
+          <li><a href="#nossos-projetos">Nossos Projetos</a></li>
+          <li><a href="#depoimentos">Depoimentos</a></li>
+          <li><a href="#videos">Vídeos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul> 
+      </div>
+    </div>
+  </nav>
+</header>
   
-<section id="#sobre-nos" class="container">
+<section id="sobre-nos" class="container">
   <h2 class="titulo">Sobre nós</h2>
   <img class="img-responsive" src="img/empresa.jpg"></img>
   <div class="panel-group" id="paineis-sobre">
